@@ -6,7 +6,7 @@
 }
 
 .about-reap-medical-frame {
-    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("/assets/about-reap-medical.png");
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("../../assets/about-reap-medical.png");
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
     background-position: 0vw 3vh;
@@ -396,7 +396,7 @@ img {
     }
 
     .about-reap-medical-frame {
-        background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("/assets/about-reap-medical.png");
+        background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("../../assets/about-reap-medical.png");
         width: 100vw;
         background-position: -45vw -10vh;
         background-size: 200vw 50vh;
@@ -776,7 +776,7 @@ img {
     }
 
     .about-reap-medical-frame {
-        background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("/assets/about-reap-medical.png");
+        background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("../../assets/about-reap-medical.png");
         display: flex;
         flex-direction: column;
         align-items: center;

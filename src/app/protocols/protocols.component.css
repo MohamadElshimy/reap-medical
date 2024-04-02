@@ -3,7 +3,7 @@
 }
 
 .protocols-first {
-    background-image: url('/assets/unsplash_WdJ4WnLxyDs.png');
+    background-image: url('../../assets/unsplash_WdJ4WnLxyDs.png');
     background-repeat: no-repeat;
     background-position-x: 0vw;
     background-position-y: 3vh;
@@ -43,7 +43,7 @@
 .protocols-img {
     width: 36vw;
     margin-top: 10vh;
-    background-image: url('/assets/unsplash_WdJ4WnLxyDs.png');
+    background-image: url('../../assets/unsplash_WdJ4WnLxyDs.png');
 }
 
 .combined-therapies {
