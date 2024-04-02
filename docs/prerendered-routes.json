@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/",
+    "/about-us",
+    "/blogs",
+    "/contact-us",
+    "/news-and-events",
+    "/products",
+    "/protocols"
+  ]
+}
