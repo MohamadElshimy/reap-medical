@@ -5,7 +5,7 @@
 }
 
 .first-part {
-    background-image: url("/assets/blog3.png");
+    background-image: url("/./assets/blog3.png");
     position: relative;
     height: 80vh;
     background-size: cover;
