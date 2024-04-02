@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.headers-list {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3vw;
+    width: 80vw;
+    height: 4vh;
+}
+
+.title {
+    width: 18vw;
+    /* height: 6vh; */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: rgba(121, 7, 38, 1);
+}
+
+a.nav-link {
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8vw;
+    line-height: 2.4vh;
+    text-transform: capitalize;
+    white-space: nowrap;
+    color: #410B1A;
+    flex-grow: 0;
+    letter-spacing: 0em;
+    text-align: center;
+    flex: none;
+}
+
+a.nav-link:hover {
+    color: #854758;
+
+}
+
+a.nav-link:active,
+a.nav-link:focus {
+    color: #3F131D;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    .title {
+        width: 27vw;
+        /* height: 6vh; */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        color: rgba(121, 7, 38, 1);
+    }
+
+    a.nav-link {
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,66 @@
+.product-more {
+    font-family: 'hatton-medium';
+    text-decoration: underline;
+    font-size: 2.5vw;
+    line-height: 100%;
+    color: #410B1A;
+    display: block;
+}
+
+.product-more>button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 80%;
+    text-align: left;
+    color: #410B1A;
+}
+
+.product-more>button>img {
+    margin-top: 1vw;
+    float: right;
+    width: 6.5%;
+}
+
+.more-line {
+    width: 80%;
+}
+
+.reverse-vector {
+    transform: scaleY(-1);
+}
+
+.product-more-text {
+    font-family: 'neue-roman';
+    font-size: 1.5vw;
+    line-height: 125%;
+    color: #410B1A;
+}
+
+@media (max-width:992px) {
+    .product-more {
+        font-size: 5vw;
+    }
+
+    .product-more>button {
+        width: 95%;
+    }
+
+    .product-more>button>img {
+        margin-top: 2vw;
+        margin-right: 5vw;
+        width: 7.5%;
+    }
+
+    .more-line {
+        width: 95%;
+    }
+
+    .product-more-text {
+        font-size: 3.5vw;
+    }
+    
+    .bigger-text {
+        font-size: 4vw;
+    }
+}

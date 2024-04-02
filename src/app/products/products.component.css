@@ -1,0 +1,246 @@
+.first-part {
+    background-image: url("/assets/unsplash_WdJ4WnLxyDs.png");
+    position: relative;
+    height: 80vh;
+    background-size: cover;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    position: absolute;
+    width: 100%;
+    margin-top: 22vh;
+}
+
+.page-title {
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 100%;
+    max-width: 90%;
+    text-align: center;
+    color: #410B1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.page-description {
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-size: 1.75rem;
+    line-height: 100%;
+    max-width: 90%;
+    text-align: center;
+    color: #410B1A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.page-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vw;
+    position: absolute;
+    width: 86vw;
+    margin-top: 55vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-family: 'hatton-medium';
+    font-size: 1.7vw;
+    line-height: 200%;
+    white-space: nowrap;
+    color: #410B1A;
+    flex-grow: 0;
+    text-align: center;
+    flex: none;
+}
+
+@media (max-width:992px) {
+    .page-title {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 130%;
+    }
+
+    .page-description {
+        font-size: 1.3rem;
+        line-height: 110%;
+    }
+
+    .page-nav {
+        gap: 1.5vw;
+    }
+
+    .nav-link {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width:750px) {
+    .page-nav {
+        display: none;
+    }
+}
+
+.product {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.product-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+}
+
+.product-title {
+    font-family: 'hatton-medium';
+    font-size: 3.5vw;
+    line-height: 120%;
+    color: #410B1A;
+    text-indent: 1.5vw;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.product-description {
+    font-family: 'neue-roman';
+    font-size: 1.55vw;
+    line-height: 125%;
+    color: #410B1A;
+}
+
+.product-more-whole {
+    /* margin-left: 5%; */
+    margin-top: 5%;
+}
+
+.product-more {
+    font-family: 'hatton-medium';
+    text-decoration: underline;
+    font-size: 2.5vw;
+    line-height: 100%;
+    color: #410B1A;
+    display: block;
+}
+
+.product-more>button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 80%;
+    text-align: left;
+    color: #410B1A;
+}
+
+.product-more>button>img {
+    margin-top: 1vw;
+    float: right;
+    width: 6.5%;
+}
+
+.more-line {
+    width: 80%;
+}
+
+.reverse-vector {
+    transform: scaleY(-1);
+}
+
+@media (max-width:992px) {
+    .product {
+        margin-bottom: 5vw;
+    }
+    .product-title {
+        font-size: 7vw;
+    }
+
+    .product-description {
+        font-size: 3.7vw;
+    }
+
+    .product-more {
+        font-size: 5vw;
+    }
+
+    .product-more>button {
+        width: 95%;
+    }
+
+    .product-more>button>img {
+        margin-top: 2vw;
+        margin-right: 5vw;
+        width: 7.5%;
+    }
+
+    .more-line {
+        width: 95%;
+    }
+}
+
+.product-more-text {
+    font-family: 'neue-roman';
+    font-size: 1.5vw;
+    line-height: 125%;
+    color: #410B1A;
+}
+
+.less-space-after {
+    margin-bottom: 1%;
+}
+
+.table-cell-indent {
+    display: table-cell;
+}
+
+.star-vector {
+    margin-bottom: 4px;
+}
+
+.bigger-text {
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+}
+
+.product-image {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-size {
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.smaller-image-size {
+    width: 100%;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+@media (max-width:992px) {
+    .product-more-text {
+        font-size: 3.5vw;
+    }
+
+    .bigger-text {
+        font-size: 4vw;
+    }
+}

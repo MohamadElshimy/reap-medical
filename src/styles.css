@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #F6F6F6;
+  }
+@font-face {
+  font-family: neue-roman;
+  src: url(assets/fonts/NeueHaasDisplayRoman.ttf) format("opentype");
+}
+@font-face {
+  font-family: neue-medium;
+  src: url(assets/fonts/NeueHaasDisplayMediu.ttf) format("opentype");
+}
+@font-face {
+  font-family: hatton-medium;
+  src: url(assets/fonts/PPHattonMedium500.otf) format("opentype");
+}

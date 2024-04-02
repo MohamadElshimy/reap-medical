@@ -1,0 +1,326 @@
+.whole-page {
+    overflow-x: hidden;
+}
+
+.protocols-first {
+    background-image: url('/assets/unsplash_WdJ4WnLxyDs.png');
+    background-repeat: no-repeat;
+    background-position-x: 0vw;
+    background-position-y: 3vh;
+    background-size: 100vw 70vh;
+    width: 100%;
+    min-height: 90vh;
+    overflow: hidden;
+}
+
+.bidecoding-protocols-title {
+    /* width: 60vw; */
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: #410B1A;
+    margin-top: 8vh;
+}
+
+.bidecoding-protocols-content {
+    /* width: 60vw; */
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #410B1A;
+}
+
+.bidecoding-img {
+    width: 35vw;
+    height: 50vh;
+    margin-top: 10vh;
+
+}
+
+.protocols-img {
+    width: 36vw;
+    margin-top: 10vh;
+    background-image: url('/assets/unsplash_WdJ4WnLxyDs.png');
+}
+
+.combined-therapies {
+    /* width: 50vw; */
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    text-transform: capitalize;
+    color: #410B1A;
+    overflow: hidden;
+}
+
+.combined-therapies:first-of-type {
+    margin-top: 15vh;
+}
+
+.super-face {
+    width: 12vw;
+    height: 20vh;
+    margin-bottom: 3vh;
+}
+
+.therapies-titles {
+
+
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 2vh;
+    text-transform: capitalize;
+    white-space: break-spaces;
+    color: #410B1A;
+}
+
+.therapies-content {
+    width: 40vw;
+    height: 12vh;
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+    line-height: 3.5vh;
+    color: #410B1A;
+}
+
+.device {
+    font-family: 'neue-roman';
+    font-size: 2.3vw;
+    font-weight: 700;
+    line-height: 6vh;
+    text-align: left;
+    color: #410B1A;
+}
+
+.device-content {
+    font-family: 'neue-roman';
+    font-size: 2.3vw;
+    font-weight: 400;
+    line-height: 1vh;
+    text-align: left;
+    color: #410B1A;
+}
+
+.break {
+
+    width: 82vw;
+    margin-top: 18vh;
+    margin-bottom: 7vh;
+    margin-left: 8.5vw;
+
+}
+
+.steps-rectangle {
+    box-sizing: border-box;
+    width: 40vw;
+    height: 70vh;
+    background: #FFFFFF;
+    border: 0.1vw solid #410B1A;
+    box-shadow: 0.75vw 0.75vw 0.9vw rgba(0, 0, 0, 0.25);
+    border-radius: 1.5vw;
+}
+
+@media screen and (max-width: 1050px) {
+    .steps-rectangle {
+        height: 55vh;
+    }
+}
+
+.arrow {
+    height: 7vh;
+    margin-top: -3vh;
+}
+
+.steps-content {
+    width: 32vw;
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 4vh;
+    color: #410B1A;
+}
+
+@media screen and (max-width: 992px) {
+    .bidecoding-protocols-title {
+        overflow: hidden;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7vw;
+        text-transform: uppercase;
+        color: #410B1A;
+    }
+
+    .bidecoding-protocols-content {
+        max-width: 85vw;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.7vw;
+        color: #410B1A;
+    }
+
+    .combined-therapies {
+        width: 100%;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9vw;
+        margin-top: 10vh;
+        margin-left: -2vw;
+        text-transform: capitalize;
+        color: #410B1A;
+
+    }
+
+    .therapies-titles {
+
+        width: 70vw;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5vw;
+        line-height: 3vh;
+        margin-top: 3vh;
+        margin-left: -3vw;
+        text-transform: capitalize;
+        white-space: nowrap;
+        color: #410B1A;
+    }
+
+    .therapies-content {
+        width: 100%;
+        height: fit-content;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3vw;
+        line-height: 140%;
+        margin-left: -3vw;
+        color: #410B1A;
+    }
+
+    .device {
+        position: relative;
+        width: 100%;
+        font-family: 'neue-roman';
+        font-size: 4vw;
+        font-weight: 700;
+        line-height: 7vh;
+        text-align: left;
+        margin-left: -3vw;
+        color: #410B1A;
+    }
+
+    .device-content {
+        width: 100%;
+        font-family: 'neue-roman';
+        font-size: 4vw;
+        font-weight: 400;
+        line-height: 110%;
+        text-align: left;
+        margin-left: -3vw;
+        color: #410B1A;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .bidecoding-protocols-title {
+        overflow: hidden;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10vw;
+        text-transform: uppercase;
+        color: #410B1A;
+    }
+
+    .bidecoding-protocols-content {
+        width: 90vw;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.5vw;
+        color: #410B1A;
+    }
+
+    .combined-therapies {
+        width: 100%;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9vw;
+        margin-top: 10vh;
+        margin-left: -2vw;
+        text-transform: capitalize;
+        color: #410B1A;
+
+    }
+
+    .therapies-titles {
+
+        width: 70vw;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 7.5vw;
+        line-height: 3vh;
+        margin-top: 3vh;
+        margin-left: -3vw;
+        text-transform: capitalize;
+        white-space: nowrap;
+        color: #410B1A;
+    }
+
+    .therapies-content {
+        width: 100%;
+        height: fit-content;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.5vw;
+        line-height: 5vh;
+        margin-left: -3vw;
+        color: #410B1A;
+    }
+
+    .device {
+        position: relative;
+        width: 100%;
+        font-family: 'neue-roman';
+        font-size: 6vw;
+        font-weight: 700;
+        line-height: 7vh;
+        text-align: left;
+        margin-left: -3vw;
+        color: #410B1A;
+    }
+
+    .device-content {
+        width: 100%;
+        font-family: 'neue-roman';
+        font-size: 6vw;
+        font-weight: 400;
+        line-height: 90%;
+        text-align: left;
+        margin-left: -3vw;
+        color: #410B1A;
+    }
+
+    .hidden {
+        display: none;
+    }
+}

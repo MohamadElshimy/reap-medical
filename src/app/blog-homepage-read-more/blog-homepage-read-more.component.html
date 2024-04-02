@@ -1,0 +1,9 @@
+<div>
+    <p #textbox [class.show-less]="expand === false">
+        <ng-content></ng-content>
+    </p>
+    <a class="underline" (click)="toggleReadMore()" *ngIf="
+        textbox.offsetHeight < textbox.scrollHeight ||
+        (expand === true && textbox.offsetHeight > 40)
+      ">{{ anchor }}</a>
+</div>

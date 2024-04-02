@@ -1,0 +1,1181 @@
+.whole-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-reap-medical-frame {
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("/assets/about-reap-medical.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    background-position: 0vw 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    position: relative;
+    min-height: 80vh;
+    margin-top: 5vh;
+    gap: 36vh;
+    order: 0;
+    padding-top: 10vh;
+}
+
+.about-reap-medical-title {
+    /* About reap medical */
+
+    width: 100vw;
+    min-height: 1vh;
+    font-family: 'hatton-medium';
+    font-style: normal;
+    font-size: 4vw;
+    line-height: 0.5vh;
+    text-align: center;
+    text-transform: capitalize;
+    color: #410B1A;
+    order: 0;
+
+
+}
+
+.line-break {
+    display: none;
+}
+
+.about-reap-medical-paragraph {
+
+    width: 60vw;
+    position: relative;
+    font-family: 'neue-roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 3.2vh;
+    text-align: center;
+    color: #410B1A;
+    order: 1;
+    margin-top: -31vh;
+
+}
+
+.mission {
+
+    position: relative;
+    width: 80vw;
+    min-height: 5vh;
+    font-family: 'hatton-medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.8vw;
+    text-align: center;
+    text-transform: capitalize;
+    color: #410B1A;
+    order: 2;
+    margin-top: 40vh;
+}
+
+.our-values {
+    /* our values */
+
+    position: relative;
+    min-height: 7vw;
+    top: 15vh;
+    margin-bottom: 10vh;
+    font-family: 'hatton-medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+    line-height: 7vw;
+    text-align: center;
+    text-transform: capitalize;
+    color: #410B1A;
+
+
+}
+
+.images-paragraphs-frame {
+
+    display: flex;
+    flex-direction: row;
+    gap: 13vw;
+    padding-left: 2%;
+    padding-right: 8%;
+    margin-top: 5vw;
+    order: 1;
+
+
+}
+
+.quality-of-product-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 23vw;
+
+
+
+    /* Inside auto layout */
+    flex: none;
+    /* order: 0; */
+    flex-grow: 0;
+
+}
+
+.quality-of-product-img {
+    position: relative;
+    width: 20vw;
+    min-height: 10vw;
+    margin-left: 22%;
+
+
+}
+
+.passion-for-beauty-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0px;
+    gap: 0%;
+    width: 23vw;
+    min-height: 10vw;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.passion-for-beauty-img {
+    position: relative;
+    width: 20vw;
+    margin-top: 3vw;
+
+}
+
+.client-education-img {
+
+    width: 14vw;
+    margin-top: 1.9vw;
+
+
+}
+
+
+
+
+.client-education-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    gap: 0%;
+    width: 23vw;
+    min-height: 10vw;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.title {
+    /* Quality of product */
+
+    font-family: 'hatton-medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 80%;
+    margin-top: 1.8vw;
+    text-align: center;
+    text-transform: capitalize;
+    color: #410B1A;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.body {
+    /* Committing to using and selling high-quality, safe, and ethically sourced beauty products. */
+    font-family: 'neue-roman', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 1.7vw;
+    text-align: center;
+    margin-top: 1vh;
+    color: #410B1A;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.biodecoding-containing-frame {
+    /* Group 32 */
+
+    position: relative;
+    width: 110%;
+    min-height: 18%;
+    margin-left: 3.5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 20vw;
+    margin-top: 10vh;
+    order: 2;
+}
+
+.why-bidecoding-text-frame {
+    /* Frame 23 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0;
+    position: relative;
+    width: 30vw;
+    min-height: 80%;
+    order: 0;
+
+
+}
+
+.biodecoding-title {
+    /* Why Biodecoding? */
+
+    width: 50vw;
+    min-height: 13vh;
+    position: relative;
+    font-family: 'hatton-medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 76px;
+    /* identical to box height */
+    text-transform: capitalize;
+
+    color: #410B1A;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.biodecode-body {
+    /* Biodecoding is a transformative biostimulation journey that awakens your skin's inherent radiance, embracing authentic beauty. This voyage crafts a distinctive profile, serving as the compass for tailor-made rituals, spanning both face and body by seamlessly integrating advanced techniques and treatments. Biodecoding aims to fleeting brilliance and promising not just a momentary glow, but an enduring radiance that resonates with your individuality */
+
+    width: 50vw;
+    min-height: 20vh;
+    position: relative;
+    /* Body */
+    font-family: 'neue-roman', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6vw;
+    line-height: 3.5vh;
+    /* or 125% */
+    text-align: justify;
+
+    color: #410B1A;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.biodecode-img {
+    /* Bio Decoding Logo (4) 1 */
+
+    position: relative;
+    width: 40%;
+    min-height: 16%;
+    /* margin-left: 10%; */
+    order: 1;
+    margin-top: -2.5%;
+
+
+}
+
+.experts {
+
+    position: relative;
+    width: 100vw;
+    min-height: fit-content;
+    left: 0%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    gap: 5vh;
+    justify-content: center;
+    order: 3;
+
+}
+
+.meet-the-experts {
+    /* meet The Experts */
+
+    width: 100%;
+
+    font-family: 'hatton-medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2vw;
+    margin-top: 3vh;
+    text-transform: capitalize;
+    margin-left: 3.2%;
+    color: #410B1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.belt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 2%;
+    position: relative;
+    width: 135vw;
+    min-height: 3vw;
+    align-self: flex-start;
+    margin-left: 0px;
+    animation: belt 10s linear infinite;
+    ;
+    flex: 1;
+    order: 1;
+    flex-grow: 0;
+}
+
+@keyframes belt {
+
+    0% {
+        left: 100%;
+    }
+
+    90% {
+        left: 0%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+img {
+    min-height: 8vw;
+}
+
+.experts-paragraph {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .line-break {
+        display: block;
+    }
+
+    .about-reap-medical-frame {
+        background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("/assets/about-reap-medical.png");
+        width: 100vw;
+        background-position: -45vw -10vh;
+        background-size: 200vw 50vh;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        min-height: 70vh;
+        gap: 0%;
+        order: 0;
+
+
+    }
+
+    .about-reap-medical-title {
+        /* About reap medical */
+
+        width: 70vw;
+        min-height: fit-content;
+        margin-top: 22vh;
+        font-family: 'hatton-medium';
+        font-style: normal;
+        font-size: 10vw;
+        line-height: 6vh;
+        text-align: center;
+        text-transform: capitalize;
+        color: #410B1A;
+        order: 0;
+
+
+    }
+
+    .about-reap-medical-paragraph {
+
+        width: 95vw;
+        min-height: 20vh;
+        position: relative;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4.5vw;
+        line-height: 110%;
+        text-align: center;
+        color: #410B1A;
+        order: 1;
+        margin-top: 3vh;
+
+    }
+
+    .mission {
+
+        position: relative;
+        width: 90vw;
+        min-height: 3vh;
+        line-height: 120%;
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7.5vw;
+        text-align: center;
+        color: #410B1A;
+        order: 2;
+        padding-top: 5vw;
+    }
+
+    .our-values {
+        /* our values */
+
+        position: relative;
+        min-height: 5vh;
+        margin-bottom: 10vh;
+        font-family: 'hatton-medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10vw;
+        line-height: 7vw;
+        text-align: center;
+        text-transform: capitalize;
+        color: #410B1A;
+
+    }
+
+    .images-paragraphs-frame {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+
+
+
+    }
+
+    .quality-of-product-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 100vw;
+        min-height: fit-content;
+        gap: 2vh;
+        order: 0;
+
+    }
+
+    .quality-of-product-img {
+        position: relative;
+        display: flex;
+        width: 50vw;
+        min-height: 18vh;
+        margin-left: 8vw;
+        order: 0;
+
+
+    }
+
+    .passion-for-beauty-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 0%;
+        width: 100vw;
+        min-height: fit-content;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    .passion-for-beauty-img {
+        position: relative;
+        display: flex;
+        width: 50vw;
+        min-height: 18vh;
+        margin-top: 3vw;
+        order: 0;
+
+    }
+
+    .client-education-img {
+        position: relative;
+        display: flex;
+        width: 50vw;
+        min-height: 18vh;
+        order: 0;
+
+
+    }
+
+    .client-education-frame {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        order: 2;
+        min-height: fit-content;
+
+    }
+
+    .title {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        /* display: flex; */
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8vw;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #410B1A;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    .title-client {
+        position: relative;
+        width: 70vw;
+        display: flex;
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8vw;
+        line-height: 80%;
+        text-transform: capitalize;
+        color: #410B1A;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-left: 5vw;
+
+    }
+
+    .body {
+        /* Committing to using and selling high-quality, safe, and ethically sourced beauty products. */
+
+
+
+        width: 92vw;
+        font-family: 'neue-roman', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.5vw;
+        line-height: 5vw;
+        text-align: center;
+        color: #410B1A;
+        display: flex;
+        order: 2;
+        flex-grow: 0;
+        margin-left: -5vw;
+
+    }
+
+    .biodecoding-containing-frame {
+        /* Group 32 */
+
+        position: relative;
+        width: 100%;
+        min-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+
+    }
+
+    .why-bidecoding-text-frame {
+
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 0px;
+        gap: 2vh;
+        position: relative;
+        width: 100vw;
+        min-height: fit-content;
+        order: 1;
+
+
+    }
+
+    .biodecoding-title {
+        display: flex;
+        width: 100vw;
+        min-height: 3vh;
+        line-height: 6vh;
+        position: relative;
+        font-family: 'hatton-medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9.5vw;
+        text-transform: capitalize;
+        color: #410B1A;
+        order: 0;
+        flex-grow: 0;
+        align-content: center;
+        text-align: justify;
+
+    }
+
+    .biodecode-body {
+        /* Biodecoding is a transformative biostimulation journey that awakens your skin's inherent radiance, embracing authentic beauty. This voyage crafts a distinctive profile, serving as the compass for tailor-made rituals, spanning both face and body by seamlessly integrating advanced techniques and treatments. Biodecoding aims to fleeting brilliance and promising not just a momentary glow, but an enduring radiance that resonates with your individuality */
+
+        width: 93vw;
+        align-self: start;
+        min-height: fit-content;
+        position: relative;
+        display: flex;
+        font-family: 'neue-roman', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.9vw;
+        line-height: 2.7vh;
+        text-align: center;
+        color: #410B1A;
+        order: 1;
+
+
+    }
+
+    .biodecode-img {
+        width: 100vw;
+        min-height: 30vh;
+        margin-left: -4vw;
+        order: 0;
+    }
+
+    .meet-the-experts {
+        /* meet The Experts */
+        position: relative;
+        width: 90%;
+        min-height: 20%;
+        display: flex;
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9.5vw;
+        line-height: 100%;
+        /* identical to box height */
+        text-transform: capitalize;
+        align-self: center;
+        color: #410B1A;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .experts-paragraph {
+        /* meet The Experts */
+        position: relative;
+        width: 90%;
+        min-height: 10%;
+        display: flex;
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.7vw;
+        line-height: 80%;
+        text-transform: capitalize;
+        align-self: center;
+        color: #410B1A;
+        margin-left: 4vw;
+        order: 1;
+
+
+    }
+
+    .belt {
+        /* Frame 18 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 2%;
+        position: relative;
+        width: 135vw;
+        min-height: 15vh;
+        align-self: flex-start;
+        margin-top: 2vw;
+        margin-left: 0px;
+        animation: belt 10s linear infinite;
+        ;
+
+        order: 2;
+        flex-grow: 0;
+
+    }
+
+    @keyframes belt {
+
+        0% {
+            left: 100%;
+        }
+
+        90% {
+            left: 0%;
+        }
+
+        100% {
+            left: 100%;
+        }
+    }
+
+    img {
+        min-height: 13vh;
+        width: 48vw;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .line-break {
+        display: block;
+    }
+
+    .about-reap-medical-frame {
+        background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 51.94%, #F6F6F6 100%), url("/assets/about-reap-medical.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        position: relative;
+        margin-top: -5vh;
+        order: 0;
+        width: 100vw;
+        background-position: -45vw 18vh;
+        background-size: 200vw 60vh;
+        background-repeat: no-repeat;
+        gap: 2vh;
+
+
+    }
+
+    .about-reap-medical-title {
+        /* About reap medical */
+
+        width: 100vw;
+        font-family: 'hatton-medium';
+        font-style: normal;
+        font-size: 5vw;
+        text-align: center;
+        text-transform: capitalize;
+        color: #410B1A;
+        order: 0;
+        margin-top: 0vh;
+
+    }
+
+    .line-break {
+        display: none;
+    }
+
+    .about-reap-medical-paragraph {
+        /* Reap Medical, established in 2019, is a thriving player in Egypt's medical aesthetics market. Our founders envisioned a transformative approach to the aesthetic industry. In 2022, we split into two entities: Reap Medical Consumables and Reap Medical Devices. The former specializes in aesthetic and cosmetic consumables, while the latter focuses on medical devices for dermatology, gynecology, and whole-body aesthetic treatments. */
+
+        width: 90vw;
+        position: relative;
+        font-family: 'neue-roman';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 2.5vh;
+        text-align: center;
+        margin-top: -13vh;
+        color: #410B1A;
+
+
+        /* Inside auto layout */
+        /* flex: none; */
+        order: 1;
+
+
+    }
+
+    .mission {
+        /* we are on a mission to be the market leaders in the aesthetics market. */
+
+        position: relative;
+        width: 80vw;
+        min-height: 10vh;
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        text-align: center;
+        text-transform: capitalize;
+        top: 13vh;
+        color: #410B1A;
+        order: 2;
+
+    }
+
+    .our-values {
+        /* our values */
+
+        display: none;
+
+
+    }
+
+    .images-paragraphs-frame {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 110%;
+        gap: 5vw;
+        padding-left: 2%;
+        padding-right: 8%;
+        margin-top: 20vw;
+
+
+    }
+
+    .quality-of-product-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 45vw;
+        min-height: fit-content;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .quality-of-product-img {
+        position: relative;
+        width: 45vw;
+        min-height: 20vh;
+        margin-left: 20vw;
+    }
+
+    .passion-for-beauty-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: fit-content;
+        width: 40vw;
+        margin-top: 2.5vh;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    .passion-for-beauty-img {
+        position: relative;
+        width: 45vw;
+
+
+    }
+
+    .client-education-img {
+
+        width: 40vw;
+        min-height: 20vh;
+        margin-top: 1.9vw;
+
+
+    }
+
+
+
+
+    .client-education-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        margin-left: 25%;
+        width: 50vw;
+        min-height: fit-content;
+        order: 2;
+
+
+    }
+
+    .title {
+        /* Quality of product */
+
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        line-height: 80%;
+        margin-top: 1.8vw;
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #410B1A;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .body {
+        /* Committing to using and selling high-quality, safe, and ethically sourced beauty products. */
+
+
+
+
+        font-family: 'neue-roman', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.8vw;
+        line-height: 2.5vh;
+        text-align: center;
+        margin-top: 1vh;
+        color: #410B1A;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    .biodecoding-containing-frame {
+        /* Group 32 */
+
+        position: relative;
+        width: 110%;
+        min-height: 18%;
+        margin-left: 3.5vw;
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+        margin-top: 10vh;
+    }
+
+    .why-bidecoding-text-frame {
+        /* Frame 23 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 0;
+        position: relative;
+        width: 45vw;
+        min-height: 40vh;
+        order: 0;
+
+
+    }
+
+    .biodecoding-title {
+        /* Why Biodecoding? */
+
+        width: 60vw;
+        min-height: 4vh;
+        position: relative;
+        font-family: 'hatton-medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6vw;
+        line-height: 4vh;
+        /* identical to box height */
+        text-transform: capitalize;
+
+        color: #410B1A;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .biodecode-body {
+        /* Biodecoding is a transformative biostimulation journey that awakens your skin's inherent radiance, embracing authentic beauty. This voyage crafts a distinctive profile, serving as the compass for tailor-made rituals, spanning both face and body by seamlessly integrating advanced techniques and treatments. Biodecoding aims to fleeting brilliance and promising not just a momentary glow, but an enduring radiance that resonates with your individuality */
+
+        width: 50vw;
+        min-height: 18vh;
+        position: relative;
+        /* Body */
+        font-family: 'neue-roman', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 2.3vh;
+        /* or 125% */
+        text-align: justify;
+
+        color: #410B1A;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: auto 0;
+
+    }
+
+    .biodecode-img {
+        /* Bio Decoding Logo (4) 1 */
+
+        position: relative;
+        width: 55vw;
+        min-height: 30vh;
+        margin-top: 3vh;
+        order: 1;
+
+
+
+    }
+
+    .experts {
+
+        overflow-x: hidden;
+        position: relative;
+        width: 100vw;
+        min-height: 35vh;
+        left: 0%;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+        margin-top: 4%;
+        justify-content: center;
+
+    }
+
+    .meet-the-experts {
+        /* meet The Experts */
+
+        width: 80%;
+        min-height: 20%;
+
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6.5vw;
+        line-height: 20%;
+        /* identical to box height */
+        text-transform: capitalize;
+        margin-left: 3.2%;
+        color: #410B1A;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .belt {
+        /* Frame 18 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 2%;
+        position: relative;
+        width: 135vw;
+        min-height: 13vh;
+        align-self: flex-start;
+        margin-top: 2vw;
+        margin-left: 0px;
+        animation: belt 10s linear infinite;
+        ;
+
+        flex: 1;
+        order: 2;
+        flex-grow: 0;
+
+    }
+
+    @keyframes belt {
+
+        0% {
+            left: 100%;
+        }
+
+        90% {
+            left: 0%;
+        }
+
+        100% {
+            left: 100%;
+        }
+    }
+
+    img {
+        min-height: 13vh;
+    }
+
+    .experts-paragraph {
+        /* meet The Experts */
+        position: relative;
+        width: 90%;
+        min-height: 10%;
+        display: flex;
+        font-family: 'hatton-medium', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        line-height: 120%;
+        text-transform: capitalize;
+        align-self: flex-start;
+        color: #410B1A;
+        margin-left: 3.3vw;
+        order: 1;
+
+    }
+}

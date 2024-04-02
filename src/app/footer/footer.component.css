@@ -1,0 +1,326 @@
+.footer {
+    /* Footer */
+    background: #312622;
+    width: 100%;
+    height: 10.8%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* social media */
+.first-container {
+    /* Frame 27 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1%;
+
+    position: relative;
+    width: 27.6%;
+    height: 55%;
+    left: 2%;
+    margin-top: 3%;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.reap-medical {
+    /* Group */
+    position: relative;
+    width: 67.6%;
+    height: 24.55%;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.text {
+
+    width: 100%;
+    height: 33%;
+    margin-top: 10px;
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.7vw;
+    text-transform: capitalize;
+    text-indent: 1%;
+
+    color: #FDF7F4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.social-media {
+    /* Frame 26 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 30%;
+    height: 27%;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.facebook {
+    /* facebook_svgrepo.com */
+
+    width: 41%;
+    height: 100%;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.instagram {
+    /* instagram_svgrepo.com */
+
+    width: 41%;
+    height: 100%;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+/* contact Us */
+.second-container {
+    /* Frame 19 */
+
+    /* Auto layout */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1%;
+    width: 19%;
+    height: 55%;
+    left: 13.01%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contactUs-text {
+    /* Contact Us Now */
+
+    width: 100%;
+    height: 19%;
+
+    font-family: 'Hatton', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 1.9vw;
+    text-transform: capitalize;
+
+    color: #FDF7F4;
+
+
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.telephone {
+    /* Telephone Number: 1234012347 */
+
+    width: 120%;
+    height: 12%;
+
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1vw;
+    text-transform: capitalize;
+
+    color: #FDF7F4;
+
+
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.email {
+    /* Email: Example@email.com */
+
+    width: 120%;
+    height: 12%;
+
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1vw;
+    text-transform: capitalize;
+
+    color: #FDF7F4;
+
+
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.address {
+    /* Address: 1283 address street, Cairo, Egypt */
+
+    width: 120%;
+    height: 12%;
+
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1vw;
+    text-transform: capitalize;
+
+    color: #FDF7F4;
+
+
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 3;
+    flex-grow: 0;
+
+}
+
+/* links */
+.third-container {
+    /* Frame 22 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20%;
+
+    position: relative;
+    left: 24%;
+    right: 6.48%;
+    margin-top: 3%;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+
+}
+
+.first-group-links {
+    /* Frame 11 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 40%;
+    height: 70%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.second-group-links {
+    /* Frame 21 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 70%;
+    height: 70%;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.links {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.8vw;
+    /* identical to box height */
+    text-transform: capitalize;
+    margin-bottom: 5vh;
+    color: #FDF7F4;
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+}
+
+@media screen and (max-width: 600px) {
+    .links {
+        position: relative;
+        text-decoration: none;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 1.8vw;
+        /* identical to box height */
+        text-transform: capitalize;
+        margin-bottom: 2.8vh;
+        color: #FDF7F4;
+        /* Inside auto layout */
+        flex: none;
+        flex-grow: 0;
+
+    }
+}
