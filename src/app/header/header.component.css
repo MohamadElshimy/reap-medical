@@ -53,15 +53,25 @@ a.nav-link:focus {
 @media screen and (max-width: 992px) {
     .title {
         width: 27vw;
-        /* height: 6vh; */
         flex: none;
         order: 0;
         flex-grow: 0;
         color: rgba(121, 7, 38, 1);
     }
 
+    .headers-list {
+        gap: 2vw;
+        width: 100%;
+        align-items: center;
+        margin: auto;
+        padding-top: 3vw;
+        height: 6vh;
+        padding-left: 2vw;
+    }
+
     a.nav-link {
         float: none;
         width: 100%;
+        font-size: 3vw;
     }
 }
