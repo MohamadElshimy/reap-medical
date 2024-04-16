@@ -1,23 +1,46 @@
 div {
-    font-family: 'neue-roman';
-    font-size: 1.75vw;
-    line-height: 125%;
-    color: #410B1A;
+  font-family: 'neue-roman';
+  font-size: 1.75vw;
+  line-height: 125%;
+  color: #410B1A;
+}
+
+a {
+  font-size: 2vw;
+  line-height: 125%;
+  cursor: pointer;
+  color: #410B1A;
+  text-decoration: underline;
+}
+
+@media (max-width:992px) {
+  div {
+    font-size: 2.2vw;
+    margin-top: 3vw;
   }
-  
+
   a {
-    font-size: 2vw;
-    line-height: 125%;
-    cursor: pointer;
-    color: #410B1A;
-    text-decoration: underline;
+    font-size: 2.5vw;
+    margin-top: 1vw;
   }
-  
-  .show-less {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    max-width: 100%;
+}
+
+@media (max-width:768px) {
+  div {
+    font-size: 3.5vw;
   }
+
+  a {
+    font-size: 3.5vw;
+    margin-bottom: 10vw;
+  }
+}
+
+.show-less {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-width: 100%;
+}

@@ -13,6 +13,29 @@ a {
   text-decoration: underline;
 }
 
+@media (max-width:992px) {
+  div {
+    font-size: 2.2vw;
+    margin-top: 4vw;
+  }
+
+  a {
+    font-size: 2.5vw;
+    margin-top: 1vw;
+  }
+}
+
+@media (max-width:768px) {
+  div {
+    font-size: 3.5vw;
+  }
+
+  a {
+    font-size: 3.5vw;
+    margin-bottom: 10vw;
+  }
+}
+
 .show-less {
   text-overflow: ellipsis;
   overflow: hidden;
